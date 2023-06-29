@@ -36,7 +36,6 @@ def get_addr():
     except KeyError:
         print("Error showing wallets")
 
-
 root = Tk.Tk()
 style= ttk.Style(root)
 style.theme_use('clam')
@@ -60,7 +59,6 @@ scrl2.pack(side=Tk.BOTTOM, fill=Tk.X)
 style.configure("Horizontal.TScrollbar", gripcount=0,
                 background="#000000", darkcolor="#39ff14", lightcolor="#39ff14",
                 troughcolor="#000000", bordercolor="#39ff14", arrowcolor="#39ff14")
-
 
 style.configure('TButton', font=('Fixedsys', 14), background='#000000', foreground='#39ff14', bordercolor="#39ff14")
 style.map('TButton', background=[('active', '#232323')])
